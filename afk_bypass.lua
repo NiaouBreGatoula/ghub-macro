@@ -1,3 +1,7 @@
+-- This type of script might seem useful for remote work environments, but keep in mind:
+-- using it to simulate activity while being inactive is not clever, it’s dishonest.
+-- It's a disservice to yourself, your team, and the people who trust you to be present.
+
 local activation_key = "capslock"
 local min_interval_ms = 1800
 local max_interval_ms = 4200
