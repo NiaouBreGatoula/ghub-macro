@@ -2,9 +2,11 @@ local activation_key = "capslock"
 local fire_button = 1
 
 local recoil_profile = {h = 0.0, v = 1.0, delay = 7}
--- h = 0.0 tha pigenei full eftheia deksia + aristera - (p.x -0.2 tha pigenei ligo aristera),
--- to v einai poso kathe fora tha katevainei to pontiki (vertical recoil),
--- kai to delay einai poso grigora tha ginetai kathe kinisi tou recoil (xrono se ms).
+-- h = 0.0 means the movement will go fully straight, no left or right.
+-- Example: -0.2 will move slightly to the left.
+-- v is how much the mouse will move downward each time (vertical recoil).
+-- delay is how fast each recoil step happens (in milliseconds).
+
 
 function randomize(base, factor)
     return base * (1 + factor * math.random())
