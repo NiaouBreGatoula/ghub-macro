@@ -24,13 +24,6 @@ They are useful in situations where repeating manual input becomes unnecessary o
 4. Assign the script to an active profile  
 5. Adjust any settings if needed (delay, activation key, etc.)
 
-## Notes
-
-- All scripts use only native G Hub Lua functions  
-- No external dependencies  
-- Customizable values are defined at the top of each script  
-- Scripts can be extended or modified as needed
-
 ## Instructions in screenshots
 
 <p align="center">
